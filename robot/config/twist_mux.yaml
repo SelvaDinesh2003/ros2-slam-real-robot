@@ -1,0 +1,13 @@
+twist_mux:
+  ros__parameters:
+    topics:
+      keyboard:
+        topic   : cmd_vel
+        timeout : 0.5
+        priority: 90
+        stamped : false  # Usually teleop_twist_keyboard publishes unstamped Twist
+      navigation:
+        topic   : nav_vel
+        timeout : 0.5
+        priority: 10
+        stamped : true

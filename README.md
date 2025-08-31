@@ -74,7 +74,7 @@ serial (ROS 2 serial driver)
 
 `cd ~/ros2_ws/src`
 
-`git clone git@github.com:<your-username>/real_world_slam.git`
+`git clone git@github.com:SelvaDinesh2003/ros2-slam-real-robot.git`
 
 `cd ~/ros2_ws`
 
